@@ -5,7 +5,7 @@ from setuptools import setup
 setup(
     name             = 'powerline-openstack-creds',
     description      = 'A Powerline segment for showing current sourced Openstack credential',
-    version          = '0.1.1',
+    version          = '0.1.2',
     keywords         = 'powerline openstack_creds_helper',
     license          = 'MIT',
     author           = 'Nhat Ngo',

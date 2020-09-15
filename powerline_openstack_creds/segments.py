@@ -10,7 +10,7 @@ def show(pl):
     return [
         {
             "contents": "🔑 %s" % os.environ.get("OS_CRED", ""),
-            "highlight_groups": None,
-            "divider_highlight_group": None,
+            "highlight_groups": ['information:regular'],
+            "divider_highlight_group": None
         }
     ]
